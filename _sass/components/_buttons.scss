@@ -1,0 +1,47 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.button, .button-accent, .button-dark {
+    border: solid 2px #fff;
+    font-size: 1rem;
+    display: inline-block;
+    padding: 0.4rem 2rem;
+    font-weight: 600;
+    letter-spacing: 0.07rem;
+}
+
+.button:hover, .button-accent:hover, .button-dark:hover {
+    text-decoration: none;
+}
+
+.button {
+    border-color: $brand-color;
+    color: $brand-color;
+}
+
+.button:hover {
+    background-color: $brand-color;
+    color: #fff;
+}
+
+.button-accent {
+    border-color: $accent-color;
+    color: $accent-color;
+}
+
+.button-accent:hover {
+    background-color: $accent-color;
+    color: #fff;
+}
+
+.button-dark {
+    border-color: $dark-grey;
+    color: $dark-grey;
+}
+
+.button-dark:hover {
+    border-color: $dark-grey;
+    background-color: $dark-grey;
+    color: $light-grey;
+}

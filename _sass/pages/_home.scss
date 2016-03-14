@@ -1,0 +1,91 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the home page.
+// -----------------------------------------------------------------------------
+
+.banner {
+    text-align: center;
+    padding: 5rem 0 7rem 0;
+
+    h1 {
+        font-size: 3rem; 
+        color: $brand-color;
+        margin-bottom: 3rem;
+    }
+}
+
+.split {
+    background-color: $light-grey;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.option {
+    width: 50%;
+    margin: 0;
+    float: left;
+    padding: 7%;
+    min-width: 550px;
+
+    span {
+        display: block;
+    }
+
+    span.name {
+        font-size: 4rem;
+        color: $secondary-color;
+        font-family: $serif-font-stack;
+        font-weight: 300;
+    }
+
+    .button-dark {
+        margin-top: 2rem;
+        display: table; 
+    }
+}
+
+.threeblock {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    h2 {
+        margin-top: 3rem;
+        margin-bottom: 0;
+    }
+
+    .block {
+        width: 33%;
+        margin: 0;
+        float: left;
+        text-align: center;
+        padding: 5%;
+        min-width: 320px;
+    }
+}
+
+.details {
+    background-color: $light-grey;
+    text-align: center;
+    padding: 2rem 0 4rem 0;
+
+    .detail {
+        padding: 2% 7%; 
+        text-align: left;
+    }
+}
+
+.call-to-action {
+    text-align: center;
+    padding: 5% 10%;
+
+    p {
+        margin: 3rem 0; 
+    }
+
+    .button-accent {
+        font-size: 1.3rem; 
+        padding: 0.5rem 2rem;
+    }
+}

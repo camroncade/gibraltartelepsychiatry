@@ -1,0 +1,15 @@
+/**
+ * Basic typography style for copy text
+ */
+body {
+  color: $text-color;
+  font: normal 125% / 1.4 $text-font-stack;
+  text-rendering: optimizeLegibility;
+}
+
+h1, h2, h3 {
+    font-family: $serif-font-stack;
+    font-weight: 300;
+    text-rendering: optimizeLegibility;
+    letter-spacing: 0.15rem;
+}

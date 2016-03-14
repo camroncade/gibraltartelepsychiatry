@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+.footer {
+    width: 100%;
+    border-top: 2px solid $light-grey;
+    
+    padding: 2rem;
+    color: $mid-grey;
+    font-size: 1rem;
+
+    a {
+        color: $mid-grey; 
+    }
+}
