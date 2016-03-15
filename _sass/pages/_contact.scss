@@ -1,0 +1,60 @@
+.contact {
+
+    .contact-box {
+        width: 50%;
+        float: left;
+    }
+
+    .contact-box {
+        padding: 0 2rem 0;
+
+        .form-group {
+            margin: 1.8rem 0;
+        }
+
+        label {
+            display: block; 
+            font-weight: 600;
+        } 
+
+        input, textarea {
+            width: 100%;
+        }
+
+        input {
+            height: 3rem; 
+            border: 2px solid $light-grey;
+            padding: 0.5em;
+        }
+
+        textarea {
+            height: 6rem; 
+            padding: 0.5em;
+        }
+
+        button {
+            width: 100%;
+            background-color: $accent-color;
+            color: #fff;
+            padding: 0.5rem;
+            border: 0px;
+        }
+    }
+
+    .info {
+        width: 50%;
+        float: left;
+        padding: 3.5rem 2rem 2rem 4rem;
+
+        .group {
+            margin: 0 0 2.5rem 0;
+        
+            .label {
+                font-size: 1.5rem;
+                font-weight: 700;
+                font-family: $serif-font-stack;
+            }
+
+        }
+    }
+}

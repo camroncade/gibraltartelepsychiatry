@@ -2,7 +2,7 @@
 // This file contains all styles related to the button component.
 // -----------------------------------------------------------------------------
 
-.button, .button-accent, .button-dark {
+.button, .button-accent, .button-dark, .button-inverted-accent {
     border: solid 2px #fff;
     font-size: 1rem;
     display: inline-block;
@@ -11,7 +11,7 @@
     letter-spacing: 0.07rem;
 }
 
-.button:hover, .button-accent:hover, .button-dark:hover {
+.button:hover, .button-accent:hover, .button-dark:hover, .button-inverted-accent:hover {
     text-decoration: none;
 }
 
@@ -44,4 +44,15 @@
     border-color: $dark-grey;
     background-color: $dark-grey;
     color: $light-grey;
+}
+
+.button-inverted-accent {
+    border-color: #fff;
+    color: #fff;
+    background-color: $accent-color;
+}
+
+.button-inverted-accent:hover {
+    background-color: #fff;
+    color: $accent-color;
 }

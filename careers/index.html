@@ -1,0 +1,24 @@
+---
+layout: homepage
+title: "Telepsychiary jobs - Gibraltar Telepsychiatry"
+---
+
+<div class="container">
+    <h2>Telepsychiatry Openings</h2>
+
+    <p>
+        We help organizations accross the United States facilitate telepsychiatry coverage and almost always have a number of telepsychiatry positions that need a talented psychiatrist.
+        You will find our featured telepsychiatry positions below, but the list is not exhaustive. If you are interested in working in telepsychiatry contact us -- we'd love to chat!
+    </p>
+
+    <a href="/contact" class="button-dark">Contact us</a>
+
+    <div class="jobs">
+    {% for career in site.careers %}
+        <div class="job">
+            <h3><a href="{{ career.url }}">{{ career.name }}</a></h3>
+            <span class="location">{{ career.location }}</span> - <span class="type">{{ career.type }}</span>
+        </div>
+    {% endfor %}
+    </div>
+</div>

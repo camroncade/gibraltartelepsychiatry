@@ -1,0 +1,30 @@
+// this targets the individual job page
+.job {
+
+    .back {
+        margin: 1rem 0;
+
+        a {
+            font-size: 1rem;
+            color: $mid-grey; 
+        } 
+    }
+
+    .contact-us-modal {
+        margin-bottom: 4rem; 
+    }
+}
+
+// this targets the jobs listing on the careers page
+.jobs {
+
+    margin: 2rem 0 4rem 0;
+
+    .job {
+        h3 {
+            margin: 0; 
+        } 
+
+        margin: 1.5rem 0 1.5rem;
+    }
+}

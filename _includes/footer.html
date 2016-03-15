@@ -1,3 +1,14 @@
 <div class="footer">
-    &copy; Copyright 2016 | <a href="#">Privacy Policy</a>
+    &copy; Copyright 2016 | <a href="/privacypolicy">Privacy Policy</a>
 </div>
+<script>
+    var menuButton = document.querySelector('#menu-button');
+    var menu = document.querySelector('#menu');
+
+    menuButton.addEventListener('click', function () {
+        if (menu.style.display == 'block')
+            menu.style.display = 'none';
+        else
+            menu.style.display = 'block';
+    });
+</script>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+    <body>
+
+        {% include header.html %}
+        
+        <div class="container job">
+            <div class="back">
+                <a href="/careers/">< back to all jobs</a>
+            </div>
+            {{ content }}
+
+            <div class="contact-us-modal">
+                <h3>Contact us to learn more</h3>
+                <p>
+                    If you have any interest in learning more about this job, contact us and we'd be happy to chat with you.
+                </p>
+
+                <a href="/contact" class="button-dark">Contact us</a>
+            </div>
+        </div>
+
+        {% include footer.html %}
+
+    </body>
+
+</html>

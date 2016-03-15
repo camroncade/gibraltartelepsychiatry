@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+    {% include head.html %}
+
+    <body>
+
+        {% include header.html %}
+        
+        <div class="container">
+            <h2 class="page-header">Whatever your need, we'll craft a custom solution.</h2>
+            
+            <div class="tabs">
+                {% for solution in site.solutions %}
+                    <div class="tab {% if (page.url == solution.url) %} active {% endif %}">
+                        <a href="{{ solution.url }}">for {{ solution.tab-name }}</a>
+                        <div class="highlight"></div>
+                    </div>
+                {% endfor %}
+                <div class="clearfix"></div>
+            </div>
+
+            <div class="tab-content">
+                {{ page.content }}
+            </div>
+
+            <div class="accent-call-to-action">
+                <h1>We'll answer all your questions.</h1>
+                <p>
+                We have years of experience navigating the landscape of providing mental health coverage with telepsychiatry. <br />
+                    Give us a call and let us find a solution that works for you and your organization.
+                </p>
+                <a href="tel:{{ site.phone }}" class="button-inverted-accent">{{ site.phoneDisplay }}</a>
+            </div>
+        </div>
+
+        {% include footer.html %}
+
+    </body>
+
+</html>
