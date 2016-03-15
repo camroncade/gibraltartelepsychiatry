@@ -16,7 +16,7 @@ title: "Telepsychiary jobs - Gibraltar Telepsychiatry"
     <div class="jobs">
     {% for career in site.careers %}
         <div class="job">
-            <h3><a href="{{ site.url }}/{{ career.url }}">{{ career.name }}</a></h3>
+            <h3><a href="{{ site.url }}{{ career.url }}">{{ career.name }}</a></h3>
             <span class="location">{{ career.location }}</span> - <span class="type">{{ career.type }}</span>
         </div>
     {% endfor %}
