@@ -13,7 +13,7 @@
             <div class="tabs">
                 {% for solution in site.technology %}
                     <div class="tab {% if (page.url == solution.url) %} active {% endif %}">
-                        <a href="{{ solution.url }}">Our {{ solution.tab-name }}</a>
+                        <a href="{{ solution.url | prepend: site.url }}">Our {{ solution.tab-name }}</a>
                         <div class="highlight"></div>
                     </div>
                 {% endfor %}
