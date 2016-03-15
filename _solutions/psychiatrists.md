@@ -17,4 +17,4 @@ At Gibraltar Telemedicine, we've established a firm knowledge of the domain of t
 
 Take a look at our careers page to see our open telepsychiatrist positions:
 
-<a href="/careers" class="button-dark">See our job opportunities</a>
+<a href="{{ site.url }}/careers" class="button-dark">See our job opportunities</a>

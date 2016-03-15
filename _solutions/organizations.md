@@ -11,7 +11,7 @@ Gibraltar telepsychiatry has many different technologies for you to try and use 
 
 Give us a call and we’ll see what we can do.
 
-<a href="/contact" class="button-dark">Contact us</a>
+<a href="{{ site.url }}/contact" class="button-dark">Contact us</a>
 
 ### Locum-tenens staffing solutions
 
