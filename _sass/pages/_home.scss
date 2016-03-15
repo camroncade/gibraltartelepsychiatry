@@ -18,6 +18,7 @@
     width: 100%;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .option {
@@ -36,6 +37,10 @@
         color: $secondary-color;
         font-family: $serif-font-stack;
         font-weight: 300;
+
+        @media (max-width: 425px) {
+            font-size: 3rem; 
+        }
     }
 
     .button-dark {
@@ -62,6 +67,10 @@
         text-align: center;
         padding: 5%;
         min-width: 320px;
+
+        @media (max-width: 600px) {
+            width: 100%;
+        }
     }
 }
 
