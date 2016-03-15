@@ -1,12 +1,13 @@
 .contact {
 
     .contact-box {
+        padding: 0 2rem 0;
         width: 50%;
         float: left;
-    }
 
-    .contact-box {
-        padding: 0 2rem 0;
+        @media (max-width: 800px) {
+            width: 100%;
+        }
 
         .form-group {
             margin: 1.8rem 0;
